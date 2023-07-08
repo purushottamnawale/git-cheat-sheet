@@ -54,4 +54,8 @@ git branch -d <branch>
 ```
 GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
 git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
+git commit --amend --no-edit --date="Thursday 13 July 2023 20:19:19 IST"
+git commit --amend --no-edit --date="13 Jul 2023"
+
+
 ```
