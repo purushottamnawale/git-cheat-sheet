@@ -48,6 +48,9 @@ touch .gitignore
 ##### Delete a branch
 ```
 git branch -d <branch>
-Change Git Commit
+```
+
+##### Change Git Commit
+```
 GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
 ```
