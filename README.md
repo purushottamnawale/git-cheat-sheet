@@ -3,48 +3,49 @@
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@email.com"
 ```
-
+<hr>
 ##### Initialize Repository
 ```
 git init
 ```
-
+<hr>
 ##### Connect to Remote Repository
 ```
 git remote add origin <remote_repo_url>
 ```
-
+<hr>
 ##### Rename a git branch
 ```
 git branch -m <newname>
 ```
+<hr>
 
 ##### Pull all files from Remote Repository
 ```
 git pull origin main
 ```
-
+<hr>
 ##### Add all files
 ```
 git add .
 ```
-
+<hr>
 ##### Commit all files
 ```
 git commit -m “commit”
 ```
-
+<hr>
 ##### Push a branch
 ```
 git push origin main
 git push origin main –force
 ```
-
+<hr>
 ##### Create a Git Ignore File
 ```
 touch .gitignore
 ```
-
+<hr>
 ##### Delete a branch
 ```
 git branch -d <branch>
