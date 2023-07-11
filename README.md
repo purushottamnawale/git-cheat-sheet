@@ -1,4 +1,4 @@
-#####Add Name and Email
+##### Add Name and Email
 ```
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@email.com"
