@@ -1,3 +1,5 @@
+# Git Cheat Sheet
+
 ##### Add User Name and Email
 ```
 git config --global user.name "John Doe"
