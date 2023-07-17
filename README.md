@@ -33,6 +33,7 @@ git pull origin main
 
 ##### Add all files
 ```
+git add <file_name>
 git add .
 ```
 
@@ -45,6 +46,16 @@ git commit -m “message”
 ```
 git push origin main
 git push origin main –force
+git push -u origin main
+git push
+```
+
+##### Fast push
+```
+git add .
+git commit -m "commit_message"
+git push
+
 ```
 
 ##### check for modified and new files
@@ -98,3 +109,23 @@ git commit --amend --no-edit --date="13 Jul 2023"
 ```
 git clone <remote_repo_url>
 ```
+
+##### Add SSH Key
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Place enter for for file name, to set default file name
+Place enter for passphrase, to set no passphrase
+
+```
+eval "$(ssh-agent -s)"
+```
+
+```
+ssh-add ~/.ssh/id_ed25519
+```
+
+```
+ cat ~/.ssh/id_ed25519.pub
+```
+Copy the content and add it into GitHub -> Settings -> SSH and GPG keys -> New SSH key
