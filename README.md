@@ -106,17 +106,6 @@ git branch -d <branch_name>
 git merge <branch_name>
 ```
 
-##### Change Git Commit
-```
-GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
-```
-```
-git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
-```
-```
-git commit --amend --no-edit --date="13 Jul 2023"
-```
-
 ##### Clone a Repository
 ```
 git clone <remote_repo_url>
@@ -139,5 +128,16 @@ ssh-add ~/.ssh/id_ed25519
 
 ```
 cat ~/.ssh/id_ed25519.pub
+```
+
+##### Change Git Commit
+```
+GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
+```
+```
+git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
+```
+```
+git commit --amend --no-edit --date="13 Jul 2023"
 ```
 Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -> New SSH key
