@@ -1,8 +1,11 @@
-##### Add Name and Email
+##### Add User Name and Email
 ```
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@email.com"
 ```
+`git config --list`
+`git config user.name`
+`git config user.email`
 
 ##### Initialize Repository
 ```
