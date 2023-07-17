@@ -80,6 +80,7 @@ git log
 touch .gitignore
 ```
 
+## Branch
 ##### Show a list of branches
 ```
 git branch
@@ -121,7 +122,7 @@ git commit --amend --no-edit --date="13 Jul 2023"
 git clone <remote_repo_url>
 ```
 
-##### Add SSH Key
+## Add SSH Key
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
@@ -137,6 +138,6 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 ```
- cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
-Copy the content and add it into GitHub -> Settings -> SSH and GPG keys -> New SSH key
+Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -> New SSH key
