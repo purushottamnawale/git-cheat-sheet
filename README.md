@@ -34,6 +34,8 @@ git pull origin main
 ##### Add all files
 ```
 git add <file_name>
+```
+```
 git add .
 ```
 
@@ -45,8 +47,13 @@ git commit -m “message”
 ##### Push files or a branch
 ```
 git push origin main
+```
+```
 git push origin main –force
+```
 git push -u origin main
+```
+```
 git push
 ```
 
@@ -54,8 +61,7 @@ git push
 ```
 git add .
 git commit -m "commit_message"
-git push
-
+git push origin main
 ```
 
 ##### check for modified and new files
@@ -101,7 +107,11 @@ git merge <branch_name>
 ##### Change Git Commit
 ```
 GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
+```
+```
 git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
+```
+```
 git commit --amend --no-edit --date="13 Jul 2023"
 ```
 
