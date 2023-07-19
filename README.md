@@ -72,7 +72,7 @@ git push origin main
 git status
 ```
 
-##### show all commits history
+##### Show all commits history
 ```
 git log
 ```
@@ -131,9 +131,6 @@ cat ~/.ssh/id_ed25519.pub
 Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -> New SSH key
 
 ##### Change Git Commit
-```
-GIT_COMMITTER_DATE="Sun 14 May 2023 20:19:19 IST" git commit --amend --no-edit --date "Sun 14 May 2023 20:19:19 IST"
-```
 ```
 git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
 ```
