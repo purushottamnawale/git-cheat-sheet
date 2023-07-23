@@ -21,6 +21,16 @@ git init
 ##### Connect to Remote Repository
 ```
 git remote add origin <remote_repo_url>
+
+```
+##### Check URL
+```
+git remote -v
+```
+
+##### Change the eemote URL
+```
+git remote set-url origin <remote_repo_url>
 ```
 
 ##### Rename a git branch
@@ -108,7 +118,7 @@ git branch -d <branch_name>
 git merge <branch_name>
 ```
 
-##### Clone a Repository
+##### Clone/Download a Repository
 ```
 git clone <remote_repo_url>
 ```
