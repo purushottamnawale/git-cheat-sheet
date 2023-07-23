@@ -21,7 +21,6 @@ git init
 ##### Connect to Remote Repository
 ```
 git remote add origin <remote_repo_url>
-
 ```
 ##### Check URL
 ```
