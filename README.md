@@ -22,12 +22,13 @@ git init
 ```
 git remote add origin <remote_repo_url>
 ```
-##### Check URL
+
+##### Check the remote URL
 ```
 git remote -v
 ```
 
-##### Change the eemote URL
+##### Change the remote URL
 ```
 git remote set-url origin <remote_repo_url>
 ```
