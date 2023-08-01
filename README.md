@@ -118,11 +118,15 @@ git branch -d <branch_name>
 git merge <branch_name>
 ```
 
-##### Clone/Download a Repository
+##### Download a Repository including all of the files, branches, and commits.
 ```
 git clone <remote_repo_url>
 ```
 
+##### Download a only a single branch
+```
+git clone -b <branch_name> <remote_repo_url>
+```
 ## Add SSH Key
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
