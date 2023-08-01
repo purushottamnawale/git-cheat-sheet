@@ -118,7 +118,7 @@ git branch -d <branch_name>
 git merge <branch_name>
 ```
 
-##### Download a Repository
+##### Download a Repository with main branch
 ```
 git clone <remote_repo_url>
 ```
