@@ -88,7 +88,7 @@ git commit -m "commit_message"
 git push origin main
 ```
 
-##### check for modified and new files
+##### Check for modified and new files
 
 ```
 git status
