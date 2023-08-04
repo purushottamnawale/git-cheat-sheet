@@ -135,6 +135,10 @@ touch .gitignore
 git branch
 ```
 
+```
+git branch --all
+```
+
 ##### Create a branch
 
 ```
@@ -206,7 +210,7 @@ Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -
 git commit --amend -m "New commit message"
 ```
 
-##### Change Git Commit
+##### Change Git Commit Date Time
 
 ```
 git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
