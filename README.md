@@ -100,6 +100,27 @@ git status
 git log
 ```
 
+```
+git log --oneline
+```
+
+```
+git log --stat
+```
+
+##### Go to a specific commit 
+
+```
+git checkout <commit_id>
+```
+
+
+##### Revert back to current head
+```
+git switch –
+```
+
+
 ##### Create a Git Ignore File
 
 ```
@@ -178,6 +199,12 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -> New SSH key
+
+
+##### Change Git Commit Message
+```
+git commit --amend -m "New commit message"
+```
 
 ##### Change Git Commit
 
