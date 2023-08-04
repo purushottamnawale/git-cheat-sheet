@@ -114,6 +114,11 @@ git log --stat
 git checkout <commit_id>
 ```
 
+##### Change Commit Message
+```
+git commit --amend -m "New commit message"
+```
+
 
 ##### Revert back to current head
 ```
@@ -151,7 +156,7 @@ git branch <branch_name>
 git checkout <branch_name>
 ```
 
-##### Rename a git branch
+##### Rename a branch
 
 ```
 git branch -m <new_name>
@@ -205,12 +210,7 @@ cat ~/.ssh/id_ed25519.pub
 Copy the content and add it into GitHub/GitLab -> Settings -> SSH and GPG keys -> New SSH key
 
 
-##### Change Git Commit Message
-```
-git commit --amend -m "New commit message"
-```
-
-##### Change Git Commit Date Time
+##### Change Commit Date Time
 
 ```
 git commit --amend --no-edit --date="Sun 14 May 2023 20:19:19 IST"
