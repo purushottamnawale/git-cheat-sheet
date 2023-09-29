@@ -133,7 +133,7 @@ git reset --hard HEAD{id}
 `HEAD{0} => HEAD`  
 `HEAD{1} => a commit before HEAD`  
 `HEAD{2} => two commits before HEAD and, so on`
-`
+
 
 ##### Create a Git Ignore File
 ```
