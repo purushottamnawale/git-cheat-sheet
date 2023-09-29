@@ -27,7 +27,7 @@ git init
 ```
 git remote add origin <remote_repo_url>
 ```
-`Here, origin is an alias, it can be anything`
+Here, origin is an alias, it can be anything
 
 ##### Check Remote URL
 ```
@@ -130,9 +130,9 @@ git reset --hard <commit_id>
 ```
 git reset --hard HEAD{id}
 ```
-`HEAD{0} => HEAD`  
-`HEAD{1} => a commit before HEAD`  
-`HEAD{2} => two commits before HEAD and, so on`
+HEAD{0} => HEAD  
+HEAD{1} => a commit before HEAD  
+HEAD{2} => two commits before HEAD and, so on
 
 
 ##### Create a Git Ignore File
@@ -145,8 +145,8 @@ touch .gitignore
 echo "example.txt" >> .gitignore
 ```
 
-`*.exe ignores all executable files`  
-`<folder_name> ignores a folder and its content`  
+*.exe ignores all executable files  
+<folder_name> ignores a folder and its content  
 
 
 ## Branch
