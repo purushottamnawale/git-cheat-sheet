@@ -66,15 +66,15 @@ git commit -m “message”
 
 ##### Push files or a branch
 ```
-git push origin main
+git push origin <branch_name>
 ```
 
 ```
-git push origin main --force
+git push origin <branch_name> --force
 ```
 
 ```
-git push -u origin main
+git push -u origin <branch_name>
 ```
 
 ```
@@ -85,8 +85,31 @@ git push
 ```
 git add .
 git commit -m "commit_message"
-git push origin main
+git push origin <branch_name>
 ```
+
+
+
+## Stash
+##### Stash Changes (When we make changes, but we want to take pull but can't commit the changes)
+```
+git stash
+```
+
+##### List all stashes
+```
+git stash list
+```
+
+##### Apply a stash
+```
+git stash apply
+```
+```
+git stash pop
+```
+
+
 
 ## Inspect
 ##### Check for modified and new files
@@ -117,13 +140,17 @@ git checkout <commit_id>
 git commit --amend -m "New commit message"
 ```
 
-
 ##### Revert back to current head
 ```
 git switch –
 ```
 
-##### Clear Staging area, rewrite the working tree from specified commit
+##### Undo Pull
+```
+git reset --hard
+```
+
+##### Clear Staging area, Go Back to a Specific Commit
 ```
 git reset --hard <commit_id>
 ```
