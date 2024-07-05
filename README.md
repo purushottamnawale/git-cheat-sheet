@@ -196,9 +196,15 @@ git branch <branch_name>
 git fetch origin
 ```
 
-##### Switch a branch
+##### Switch to a branch
 ```
 git checkout <branch_name>
+```
+
+#### Swith to a branch which does not exist on local but on remote
+```
+git fetch origin
+git checkout -b <branch-name> origin/<branch-name>
 ```
 
 ##### Rename a branch
