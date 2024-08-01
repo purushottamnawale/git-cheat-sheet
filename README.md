@@ -191,6 +191,11 @@ git branch --all
 git branch <branch_name>
 ```
 
+#### Create a Local Branch from Remote Branch
+```
+git checkout -b <local-branch>  --track origin/<remote-branch>
+```
+
 ##### Fetch down all the branches from remote
 ```
 git fetch origin
