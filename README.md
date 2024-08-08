@@ -18,6 +18,11 @@ git config user.name
 git config user.email
 ```
 
+#### Save User Name And Password
+```
+git config --global credential.helper store
+```
+
 ##### Initialize Repository
 ```
 git init
