@@ -196,9 +196,9 @@ git branch --all
 git branch <branch_name>
 ```
 
-#### Create a Local Branch from Remote Branch
+#### Create a Local Feature Branch from Local Main Branch
 ```
-git checkout -b <local-branch>  --track origin/<remote-branch>
+git checkout -b <feature> <main>
 ```
 
 ##### Fetch down all the branches from remote
