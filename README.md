@@ -209,6 +209,8 @@ git fetch origin
 ##### A more approach to update local branches from remote
 ```
 sudo apt install hub
+```
+```
 hub sync
 ```
 
