@@ -248,3 +248,14 @@ git clone <remote_repo_url>
 ```
 git clone -b <branch_name> <remote_repo_url>
 ```
+
+
+##### Remove a file from git tracking for local only
+```
+git update-index --skip-worktree <file_name>
+```
+
+##### Add a file from git tracking for local only
+```
+git update-index --no-skip-worktree <file_name>
+```
